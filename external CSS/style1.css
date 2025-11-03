@@ -1,0 +1,18 @@
+#kotak-animasi{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 8px;
+    transition: transform 0.4s ease-in-out;
+}
+
+#kotak-animasi.bergerak{
+    transform: translateX(300px);
+    background-color: #ff6347;
+}
+
+button{
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
